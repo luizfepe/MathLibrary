@@ -1,1 +1,14 @@
+C:\GIT\MathLibrary\x64\Debug\MathLibrary.vcxproj.CopyComplete
+C:\GIT\MathLibrary\x64\Debug\dnn_model_2_0.onnx
 C:\GIT\MathLibrary\x64\Debug\MathLibrary.dll
+C:\GIT\MathLibrary\x64\Debug\depthengine_2_0.dll
+C:\GIT\MathLibrary\x64\Debug\k4a.dll
+C:\GIT\MathLibrary\x64\Debug\k4arecord.dll
+C:\GIT\MathLibrary\x64\Debug\k4a.pdb
+C:\GIT\MathLibrary\x64\Debug\k4arecord.pdb
+C:\GIT\MathLibrary\x64\Debug\k4abt.dll
+C:\GIT\MathLibrary\x64\Debug\onnxruntime.dll
+C:\GIT\MathLibrary\x64\Debug\cublas64_100.dll
+C:\GIT\MathLibrary\x64\Debug\cudart64_100.dll
+C:\GIT\MathLibrary\x64\Debug\vcomp140.dll
+C:\GIT\MathLibrary\x64\Debug\cudnn64_7.dll

@@ -4,6 +4,17 @@
 #include <limits.h>
 #include "MathLibrary.h"
 
+#include <assert.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+#include <k4a/k4a.h>
+#include <k4abt.h>
+//#include "packages/Microsoft.Azure.Kinect.Sensor.1.3.0/build/native/include/k4a/k4a.h"
+//#include "packages/Microsoft.Azure.Kinect.BodyTracking.1.0.0/build/native/include/k4abt.h"
+
+
 // DLL internal state variables:
 static unsigned long long previous_;  // Previous value, if any
 static unsigned long long current_;   // Current sequence value

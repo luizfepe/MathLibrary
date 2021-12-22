@@ -24,6 +24,48 @@
     <ClInclude Include="MathLibrary.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.BodyTracking.1.0.0\build\native\include\k4abt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.BodyTracking.1.0.0\build\native\include\k4abt.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.BodyTracking.1.0.0\build\native\include\k4abttypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.BodyTracking.1.0.0\build\native\include\k4abtversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.Sensor.1.3.0\build\native\include\k4a\k4a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.Sensor.1.3.0\build\native\include\k4a\k4a.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.Sensor.1.3.0\build\native\include\k4a\k4a_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.Sensor.1.3.0\build\native\include\k4a\k4atypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.Sensor.1.3.0\build\native\include\k4a\k4aversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.Sensor.1.3.0\build\native\include\k4arecord\k4arecord_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.Sensor.1.3.0\build\native\include\k4arecord\playback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.Sensor.1.3.0\build\native\include\k4arecord\playback.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.Sensor.1.3.0\build\native\include\k4arecord\record.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\Microsoft.Azure.Kinect.Sensor.1.3.0\build\native\include\k4arecord\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -35,5 +77,12 @@
     <ClCompile Include="MathLibrary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="packages\Microsoft.Azure.Kinect.Sensor.1.3.0\firmware\AzureKinectDK_Fw_1.6.102075014.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="packages\Microsoft.Azure.Kinect.BodyTracking.1.0.0\content\dnn_model_2_0.onnx" />
   </ItemGroup>
 </Project>

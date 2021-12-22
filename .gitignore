@@ -10,6 +10,9 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 /[Rr]ecordings/
+/[Pp]ackages/
+/[Xx]64/
+/[Dd]ebug/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -65,3 +68,5 @@ crashlytics-build.properties
 
 /cudnn64_7.dll
 /dnn_model_2_0.onnx
+
+
