@@ -1,0 +1,32 @@
+Errors in Unity:
+**"EntryPointNotFound"
+means the CPP dll functions are not properly declared in the C# interface.
+I give you, reader, an example as soon as I rollback the mess in GIT and get the DLL interface code.
+It may happen, it may not.
+
+
+**"DllNotFound"
+means the adjacent dependencies were not found.
+Solved by copying other libraries (k4a.h, k4abt.dll, etc) to the folder:
+Program Files/Unity/Hub/"UnityVersion"/Editor/
+ 
+
+**Marshal problems:
+Marshal is a converter from "pointer" output from the dll to other types.
+However, Marshal doesn't like arrays or custom/unmanaged types.
+
+Put this before struct declarations in C#
+
+[StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
+[MarshalAs(UnmanagedType.ByValArray, SizeConst = 5)]
+
+Use this to get the pointer from the Cpp DLL and decode into strucs, including arrays:
+
+MyStruct_t pMyStruct = (MyStruct_t)Marshal.PtrToStructure(pMyStructPTR, typeof(MyStruct_t));
+
+
+
+**Kinect turns LED on but then turns off
+DLL/Libs problem. It happened to have duplicates around the "path'ed" folders.
+For example: DNN_onnx or something or cuda64.dll or something was present in the Assets/Plugins folder, but also in 
+Program Files/Unity/Hub/"UnityVersion"/Editor/
